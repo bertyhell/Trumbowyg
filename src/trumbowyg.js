@@ -1254,7 +1254,7 @@ Object.defineProperty(jQuery.trumbowyg, 'defaultOptions', {
 
             var options = {
                 url: {
-                    label: t.lang.url || 'URL',
+                    label: t.lang.linkUrl || 'URL',
                     required: true,
                     value: url
                 },
